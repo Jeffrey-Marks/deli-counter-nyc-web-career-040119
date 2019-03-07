@@ -9,5 +9,6 @@ def line(current_line)
       line_string += "#{index + 1}. #{name} "
     end
     line_string = line_string[(0..-2)]
+    puts line_string
   end
 end
