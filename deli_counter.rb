@@ -15,5 +15,5 @@ end
 
 def take_a_number(current_line, name)
   current_line.push(name)
-  puts ""
+  puts "Hello, #{name}. You are currently #{current_line.length} in line."
 end
