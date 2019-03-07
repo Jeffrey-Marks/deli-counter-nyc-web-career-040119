@@ -6,7 +6,7 @@ def line(current_line)
   else
     line_string = "The line is currently: "
     for person in current_line
-      
+      line_string += "#{}. #{} "
     end
   end
 end
