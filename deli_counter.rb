@@ -5,6 +5,8 @@ def line(current_line)
     puts "The line is currently empty."
   else
     line_string = "The line is currently: "
-    current_line.each_with_index do |
+    current_line.each_with_index do |name, index|
+      line_string += "#{index + 1}. #{name} "
+    end
   end
 end
