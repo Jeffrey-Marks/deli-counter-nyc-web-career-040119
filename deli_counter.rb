@@ -5,8 +5,6 @@ def line(current_line)
     puts "The line is currently empty."
   else
     line_string = "The line is currently: "
-    for person in current_line
-      line_string += "#{}. #{} "
-    end
+    current_line.each_with_index do |
   end
 end
