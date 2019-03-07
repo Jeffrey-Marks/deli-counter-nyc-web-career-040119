@@ -8,6 +8,6 @@ def line(current_line)
     current_line.each_with_index do |name, index|
       line_string += "#{index + 1}. #{name} "
     end
-    line_string
+    line_string = line_string[(0..-2)]
   end
 end
